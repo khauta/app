@@ -10,12 +10,11 @@ import { FeatherIconsComponent } from '../feather-icons/feather-icons.component'
     templateUrl: './breadcrumb.component.html',
     styleUrls: ['./breadcrumb.component.scss'],
     encapsulation: ViewEncapsulation.None,
-    standalone: true,
     imports: [
         FeatherIconsComponent,
         MatIconModule,
         TranslateModule,
-    ],
+    ]
 })
 export class BreadcrumbComponent implements OnInit {
   @Input() nav: string[] = [];

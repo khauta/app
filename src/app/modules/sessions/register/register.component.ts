@@ -15,22 +15,21 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatCardModule } from '@angular/material/card';
 
 @Component({
-  selector: 'app-register',
-  templateUrl: './register.component.html',
-  styleUrls: ['./register.component.scss'],
-  standalone: true,
-  encapsulation: ViewEncapsulation.None,
-  imports: [
-    MatCardModule,
-    ReactiveFormsModule,
-    MatFormFieldModule,
-    MatInputModule,
-    MatIconModule,
-    TranslateModule,
-    MatCheckboxModule,
-    MatButtonModule,
-    RouterLink,
-  ],
+    selector: 'app-register',
+    templateUrl: './register.component.html',
+    styleUrls: ['./register.component.scss'],
+    encapsulation: ViewEncapsulation.None,
+    imports: [
+        MatCardModule,
+        ReactiveFormsModule,
+        MatFormFieldModule,
+        MatInputModule,
+        MatIconModule,
+        TranslateModule,
+        MatCheckboxModule,
+        MatButtonModule,
+        RouterLink,
+    ]
 })
 export class RegisterComponent {
   hide = true;

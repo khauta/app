@@ -7,7 +7,6 @@ import { PageHeaderComponent } from '../../../shared/components/page-header/page
     selector: 'app-css-grid',
     templateUrl: './css-grid.component.html',
     styleUrls: ['./css-grid.component.scss'],
-    standalone: true,
     imports: [PageHeaderComponent, RouterLink, MatCardModule]
 })
 export class CssGridComponent {

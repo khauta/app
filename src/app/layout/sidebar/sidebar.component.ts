@@ -15,21 +15,20 @@ import { BrandingComponent } from '../widgets/branding.component';
 import { FeatherModule } from 'angular-feather';
 
 @Component({
-  selector: 'app-sidebar',
-  templateUrl: './sidebar.component.html',
-  styleUrls: ['./sidebar.component.scss'],
-  encapsulation: ViewEncapsulation.None,
-  standalone: true,
-  imports: [
-    BrandingComponent,
-    MatButtonModule,
-    MatIconModule,
-    NgClass,
-    NgScrollbar,
-    UserPanelComponent,
-    SidemenuComponent,
-    FeatherModule,
-  ],
+    selector: 'app-sidebar',
+    templateUrl: './sidebar.component.html',
+    styleUrls: ['./sidebar.component.scss'],
+    encapsulation: ViewEncapsulation.None,
+    imports: [
+        BrandingComponent,
+        MatButtonModule,
+        MatIconModule,
+        NgClass,
+        NgScrollbar,
+        UserPanelComponent,
+        SidemenuComponent,
+        FeatherModule,
+    ]
 })
 export class SidebarComponent {
   @Input() showToggle = true;

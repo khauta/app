@@ -17,23 +17,22 @@ import { LoginService } from '@core/services/login.service';
 import { FormControl, FormGroup } from '@angular/forms';
 
 @Component({
-  selector: 'app-login',
-  templateUrl: './login.component.html',
-  styleUrls: ['./login.component.scss'],
-  standalone: true,
-  encapsulation: ViewEncapsulation.None,
-  imports: [
-    MatCardModule,
-    MatButtonModule,
-    ReactiveFormsModule,
-    MatFormFieldModule,
-    MatInputModule,
-    MatIconModule,
-    CommonModule,
-    MatCheckboxModule,
-    RouterLink,
-    TranslateModule,
-  ],
+    selector: 'app-login',
+    templateUrl: './login.component.html',
+    styleUrls: ['./login.component.scss'],
+    encapsulation: ViewEncapsulation.None,
+    imports: [
+        MatCardModule,
+        MatButtonModule,
+        ReactiveFormsModule,
+        MatFormFieldModule,
+        MatInputModule,
+        MatIconModule,
+        CommonModule,
+        MatCheckboxModule,
+        RouterLink,
+        TranslateModule,
+    ]
 })
 export class LoginComponent {
   isSubmitting = false;

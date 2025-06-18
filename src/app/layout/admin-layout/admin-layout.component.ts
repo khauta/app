@@ -41,29 +41,28 @@ const TABLET_MEDIAQUERY =
   'screen and (min-width: 600px) and (max-width: 959px)';
 const MONITOR_MEDIAQUERY = 'screen and (min-width: 960px)';
 @Component({
-  selector: 'app-admin-layout',
-  templateUrl: './admin-layout.component.html',
-  styleUrls: ['./admin-layout.component.scss'],
-  encapsulation: ViewEncapsulation.None,
-  standalone: true,
-  imports: [
-    NgClass,
-    BidiModule,
-    NgProgressComponent,
-    HeaderComponent,
-    MatSidenavModule,
-    SidebarComponent,
-    CustomizerComponent,
-    SidebarNoticeComponent,
-    TopmenuComponent,
-    RouterOutlet,
-    FooterComponent,
-    MatTooltipModule,
-    CdkDrag,
-    MatButtonModule,
-    MatIconModule,
-    FeatherModule,
-  ],
+    selector: 'app-admin-layout',
+    templateUrl: './admin-layout.component.html',
+    styleUrls: ['./admin-layout.component.scss'],
+    encapsulation: ViewEncapsulation.None,
+    imports: [
+        NgClass,
+        BidiModule,
+        NgProgressComponent,
+        HeaderComponent,
+        MatSidenavModule,
+        SidebarComponent,
+        CustomizerComponent,
+        SidebarNoticeComponent,
+        TopmenuComponent,
+        RouterOutlet,
+        FooterComponent,
+        MatTooltipModule,
+        CdkDrag,
+        MatButtonModule,
+        MatIconModule,
+        FeatherModule,
+    ]
 })
 export class AdminLayoutComponent implements OnDestroy {
   @ViewChild('sidenav', { static: true }) sidenav!: MatSidenav;

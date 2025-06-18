@@ -5,7 +5,6 @@ import { ErrorCodeComponent } from '../../../shared/components/error-code/error-
     selector: 'app-page403',
     templateUrl: './page403.component.html',
     styleUrls: ['./page403.component.scss'],
-    standalone: true,
     imports: [ErrorCodeComponent]
 })
 export class Page403Component {

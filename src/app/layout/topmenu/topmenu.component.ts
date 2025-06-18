@@ -28,25 +28,24 @@ export interface TopmenuState {
 }
 
 @Component({
-  selector: 'app-topmenu',
-  templateUrl: './topmenu.component.html',
-  styleUrls: ['./topmenu.component.scss'],
-  encapsulation: ViewEncapsulation.None,
-  standalone: true,
-  imports: [
-    MatTabsModule,
-    MatButtonModule,
-    RouterLinkActive,
-    RouterLink,
-    NgTemplateOutlet,
-    MatMenuModule,
-    TopmenuPanelComponent,
-    MatIconModule,
-    AsyncPipe,
-    TranslateModule,
-    FeatherModule,
-    CommonModule,
-  ],
+    selector: 'app-topmenu',
+    templateUrl: './topmenu.component.html',
+    styleUrls: ['./topmenu.component.scss'],
+    encapsulation: ViewEncapsulation.None,
+    imports: [
+        MatTabsModule,
+        MatButtonModule,
+        RouterLinkActive,
+        RouterLink,
+        NgTemplateOutlet,
+        MatMenuModule,
+        TopmenuPanelComponent,
+        MatIconModule,
+        AsyncPipe,
+        TranslateModule,
+        FeatherModule,
+        CommonModule,
+    ]
 })
 export class TopmenuComponent implements OnDestroy {
   @HostBinding('class') class = 'topmenu';

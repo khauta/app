@@ -23,17 +23,16 @@ import { MatIconModule } from '@angular/material/icon';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-topmenu-panel',
-  templateUrl: './topmenu-panel.component.html',
-  standalone: true,
-  imports: [
-    MatMenuModule,
-    RouterLinkActive,
-    RouterLink,
-    MatIconModule,
-    TranslateModule,
-    CommonModule,
-  ],
+    selector: 'app-topmenu-panel',
+    templateUrl: './topmenu-panel.component.html',
+    imports: [
+        MatMenuModule,
+        RouterLinkActive,
+        RouterLink,
+        MatIconModule,
+        TranslateModule,
+        CommonModule,
+    ]
 })
 export class TopmenuPanelComponent implements OnInit, OnDestroy {
   @ViewChild(MatMenu, { static: true }) menuPanel!: MatMenu;

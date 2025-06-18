@@ -8,7 +8,6 @@ import { PageHeaderComponent } from '../../../shared/components/page-header/page
     selector: 'app-css-helpers',
     templateUrl: './css-helpers.component.html',
     styleUrls: ['./css-helpers.component.scss'],
-    standalone: true,
     imports: [PageHeaderComponent, MatCardModule, MatTabsModule, MatListModule]
 })
 export class CssHelpersComponent {

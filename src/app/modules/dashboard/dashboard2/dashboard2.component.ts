@@ -170,29 +170,28 @@ const ELEMENT_DATA: Project[] = [
 ];
 
 @Component({
-  selector: 'app-dashboard2',
-  standalone: true,
-  imports: [
-    MatCardModule,
-    MatButtonModule,
-    FeatherModule,
-    MatIconModule,
-    NgApexchartsModule,
-    MatTableModule,
-    MatMenuModule,
-    DatePipe,
-    CommonModule,
-    MatProgressBarModule,
-    FeatherIconsComponent,
-    NgScrollbar,
-    MatCheckboxModule,
-    CdkDropList,
-    CdkDrag,
-    CdkDragHandle,
-    CdkDragPlaceholder,
-  ],
-  templateUrl: './dashboard2.component.html',
-  styleUrl: './dashboard2.component.scss',
+    selector: 'app-dashboard2',
+    imports: [
+        MatCardModule,
+        MatButtonModule,
+        FeatherModule,
+        MatIconModule,
+        NgApexchartsModule,
+        MatTableModule,
+        MatMenuModule,
+        DatePipe,
+        CommonModule,
+        MatProgressBarModule,
+        FeatherIconsComponent,
+        NgScrollbar,
+        MatCheckboxModule,
+        CdkDropList,
+        CdkDrag,
+        CdkDragHandle,
+        CdkDragPlaceholder,
+    ],
+    templateUrl: './dashboard2.component.html',
+    styleUrl: './dashboard2.component.scss'
 })
 export class Dashboard2Component {
   public smallChart1Options!: Partial<ChartOptions>;

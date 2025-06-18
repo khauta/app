@@ -38,24 +38,22 @@ export function matchValidator(controlName: string, matchingControlName: string)
 }
 
 @Component({
-  selector: 'app-password-update',
-  standalone: true,
-  imports: [
-    CommonModule,
-    ReactiveFormsModule,
-    // MatCardModule, // Removed as using dialog structure
-    MatFormFieldModule,
-    MatInputModule,
-    MatButtonModule,
-    MatIconModule,
-    TranslateModule,
-    MatDialogModule,
-    MatDialogTitle,
-    MatDialogContent,
-    MatDialogActions
-  ],
-  templateUrl: './password-update.component.html',
-  // No specific SCSS needed unless further customization is required
+    selector: 'app-password-update',
+    imports: [
+        CommonModule,
+        ReactiveFormsModule,
+        // MatCardModule, // Removed as using dialog structure
+        MatFormFieldModule,
+        MatInputModule,
+        MatButtonModule,
+        MatIconModule,
+        TranslateModule,
+        MatDialogModule,
+        MatDialogTitle,
+        MatDialogContent,
+        MatDialogActions
+    ],
+    templateUrl: './password-update.component.html'
 })
 export class PasswordUpdateComponent implements OnInit, OnDestroy {
   passwordForm: FormGroup;

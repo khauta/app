@@ -113,22 +113,21 @@ const ELEMENT_DATA: InvoiceData[] = [
 ];
 
 @Component({
-  selector: 'app-dashboard1',
-  templateUrl: './dashboard1.component.html',
-  styleUrls: ['./dashboard1.component.scss'],
-  standalone: true,
-  imports: [
-    MatCardModule,
-    MatButtonModule,
-    RouterLink,
-    FeatherModule,
-    MatIconModule,
-    NgApexchartsModule,
-    MatTableModule,
-    DatePipe,
-    MatProgressBarModule,
-    MatMenuModule,
-  ],
+    selector: 'app-dashboard1',
+    templateUrl: './dashboard1.component.html',
+    styleUrls: ['./dashboard1.component.scss'],
+    imports: [
+        MatCardModule,
+        MatButtonModule,
+        RouterLink,
+        FeatherModule,
+        MatIconModule,
+        NgApexchartsModule,
+        MatTableModule,
+        DatePipe,
+        MatProgressBarModule,
+        MatMenuModule,
+    ]
 })
 export class Dashboard1Component {
   public areaChartOptions!: Partial<ChartOptions>;

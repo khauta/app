@@ -20,21 +20,20 @@ interface Notifications {
 }
 
 @Component({
-  selector: 'app-notification',
-  templateUrl: './notification.component.html',
-  styleUrls: ['./notification.component.scss'],
-  encapsulation: ViewEncapsulation.None,
-  standalone: true,
-  imports: [
-    MatButtonModule,
-    MatMenuModule,
-    MatIconModule,
-    MatBadgeModule,
-    MatListModule,
-    NgScrollbar,
-    NgClass,
-    FeatherModule
-  ],
+    selector: 'app-notification',
+    templateUrl: './notification.component.html',
+    styleUrls: ['./notification.component.scss'],
+    encapsulation: ViewEncapsulation.None,
+    imports: [
+        MatButtonModule,
+        MatMenuModule,
+        MatIconModule,
+        MatBadgeModule,
+        MatListModule,
+        NgScrollbar,
+        NgClass,
+        FeatherModule
+    ]
 })
 
 

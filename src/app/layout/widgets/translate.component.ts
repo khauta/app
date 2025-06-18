@@ -7,9 +7,9 @@ import { MatButtonModule } from '@angular/material/button';
 import { LocalStorageService } from '@shared';
 
 @Component({
-  selector: 'app-translate',
-  encapsulation: ViewEncapsulation.None,
-  template: `
+    selector: 'app-translate',
+    encapsulation: ViewEncapsulation.None,
+    template: `
     <button
       class="m-4"
       mat-icon-button
@@ -38,8 +38,8 @@ import { LocalStorageService } from '@shared';
       }
     </mat-menu>
   `,
-  styles: [
-    `
+    styles: [
+        `
       .lang-dropdown {
         background-color: rgba(0, 0, 0, 0);
         img {
@@ -67,9 +67,8 @@ import { LocalStorageService } from '@shared';
         }
       }
     `,
-  ],
-  standalone: true,
-  imports: [MatButtonModule, MatMenuModule, NgClass],
+    ],
+    imports: [MatButtonModule, MatMenuModule, NgClass]
 })
 export class TranslateComponent {
   flagvalue: string | string[] | undefined;

@@ -16,8 +16,7 @@ import { BreadcrumbComponent } from '../breadcrumb/breadcrumb.component';
     templateUrl: './page-header.component.html',
     styleUrls: ['./page-header.component.scss'],
     encapsulation: ViewEncapsulation.None,
-    standalone: true,
-    imports: [BreadcrumbComponent, TranslateModule],
+    imports: [BreadcrumbComponent, TranslateModule]
 })
 export class PageHeaderComponent implements OnInit {
   @HostBinding('class') class = 'page-header';

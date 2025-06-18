@@ -15,8 +15,7 @@ import { MatButtonModule } from '@angular/material/button';
     ],
     styleUrls: ['./file-upload.component.scss'],
     encapsulation: ViewEncapsulation.None,
-    standalone: true,
-    imports: [MatButtonModule],
+    imports: [MatButtonModule]
 })
 export class FileUploadComponent implements ControlValueAccessor {
   onChange!: Function;

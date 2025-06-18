@@ -20,21 +20,20 @@ import { FeatherModule } from 'angular-feather';
 import { AdminLayoutComponent } from '../admin-layout/admin-layout.component';
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.scss'],
-  encapsulation: ViewEncapsulation.None,
-  standalone: true,
-  imports: [
-    MatToolbarModule,
-    MatButtonModule,
-    MatIconModule,
-    BrandingComponent,
-    TranslateComponent,
-    NotificationComponent,
-    UserComponent,
-    FeatherModule
-  ],
+    selector: 'app-header',
+    templateUrl: './header.component.html',
+    styleUrls: ['./header.component.scss'],
+    encapsulation: ViewEncapsulation.None,
+    imports: [
+        MatToolbarModule,
+        MatButtonModule,
+        MatIconModule,
+        BrandingComponent,
+        TranslateComponent,
+        NotificationComponent,
+        UserComponent,
+        FeatherModule
+    ]
 })
 export class HeaderComponent {
 

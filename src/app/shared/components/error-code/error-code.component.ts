@@ -7,8 +7,7 @@ import { MatButtonModule } from '@angular/material/button';
     templateUrl: './error-code.component.html',
     styleUrls: ['./error-code.component.scss'],
     encapsulation: ViewEncapsulation.None,
-    standalone: true,
-    imports: [MatButtonModule, RouterLink],
+    imports: [MatButtonModule, RouterLink]
 })
 export class ErrorCodeComponent {
   @Input() code = '';

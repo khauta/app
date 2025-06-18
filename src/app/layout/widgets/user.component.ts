@@ -15,9 +15,9 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatButtonModule } from '@angular/material/button';
 
 @Component({
-  selector: 'app-user',
-  encapsulation: ViewEncapsulation.None,
-  template: `
+    selector: 'app-user',
+    encapsulation: ViewEncapsulation.None,
+    template: `
     <button class="r-full" mat-button [matMenuTriggerFor]="menu">
       <!-- <img
         matButtonIcon
@@ -48,8 +48,8 @@ import { MatButtonModule } from '@angular/material/button';
       </button>
     </mat-menu>
   `,
-  styles: [
-    `
+    styles: [
+        `
       .avatar {
         width: 24px;
         height: 24px;
@@ -65,15 +65,14 @@ import { MatButtonModule } from '@angular/material/button';
         }
       }
     `,
-  ],
-  standalone: true,
-  imports: [
-    MatButtonModule,
-    MatMenuModule,
-    RouterLink,
-    MatIconModule,
-    TranslateModule,
-  ],
+    ],
+    imports: [
+        MatButtonModule,
+        MatMenuModule,
+        RouterLink,
+        MatIconModule,
+        TranslateModule,
+    ]
 })
 export class UserComponent implements OnInit {
   user!: User;

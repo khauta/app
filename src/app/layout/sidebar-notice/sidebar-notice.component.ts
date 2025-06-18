@@ -6,17 +6,16 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { FormsModule } from '@angular/forms';
 
 @Component({
-  selector: 'app-sidebar-notice',
-  templateUrl: './sidebar-notice.component.html',
-  styleUrls: ['./sidebar-notice.component.scss'],
-  standalone: true,
-  imports: [
-    MatTabsModule,
-    MatButtonModule,
-    MatIconModule,
-    MatSlideToggleModule,
-    FormsModule,
-  ],
+    selector: 'app-sidebar-notice',
+    templateUrl: './sidebar-notice.component.html',
+    styleUrls: ['./sidebar-notice.component.scss'],
+    imports: [
+        MatTabsModule,
+        MatButtonModule,
+        MatIconModule,
+        MatSlideToggleModule,
+        FormsModule,
+    ]
 })
 export class SidebarNoticeComponent {
   isChecked? = true;

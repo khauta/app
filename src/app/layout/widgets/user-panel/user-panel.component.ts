@@ -9,19 +9,18 @@ import { MatButtonModule } from '@angular/material/button';
 import { FeatherModule } from 'angular-feather';
 
 @Component({
-  selector: 'app-user-panel',
-  templateUrl: './user-panel.component.html',
-  styleUrls: ['./user-panel.component.scss'],
-  encapsulation: ViewEncapsulation.None,
-  standalone: true,
-  imports: [
-    MatButtonModule,
-    RouterLink,
-    MatTooltipModule,
-    MatIconModule,
-    TranslateModule,
-    FeatherModule,
-  ],
+    selector: 'app-user-panel',
+    templateUrl: './user-panel.component.html',
+    styleUrls: ['./user-panel.component.scss'],
+    encapsulation: ViewEncapsulation.None,
+    imports: [
+        MatButtonModule,
+        RouterLink,
+        MatTooltipModule,
+        MatIconModule,
+        TranslateModule,
+        FeatherModule,
+    ]
 })
 export class UserPanelComponent implements OnInit {
   user!: User;

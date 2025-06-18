@@ -23,18 +23,17 @@ interface Colors {
 }
 
 @Component({
-  selector: 'app-customizer',
-  templateUrl: './customizer.component.html',
-  styleUrls: ['./customizer.component.scss'],
-  encapsulation: ViewEncapsulation.None,
-  standalone: true,
-  imports: [
-    NgScrollbar,
-    ReactiveFormsModule,
-    MatRadioModule,
-    MatDividerModule,
-    MatSlideToggleModule,
-  ],
+    selector: 'app-customizer',
+    templateUrl: './customizer.component.html',
+    styleUrls: ['./customizer.component.scss'],
+    encapsulation: ViewEncapsulation.None,
+    imports: [
+        NgScrollbar,
+        ReactiveFormsModule,
+        MatRadioModule,
+        MatDividerModule,
+        MatSlideToggleModule,
+    ]
 })
 export class CustomizerComponent implements OnInit, OnDestroy {
   @Output() optionsChange = new EventEmitter<AppSettings>();
