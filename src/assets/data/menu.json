@@ -1,0 +1,132 @@
+{
+  "menu": [
+    {
+      "type": "devider",
+      "name": "devider-dashboards"
+    },
+    {
+      "route": "dashboard",
+      "name": "dashboard",
+      "type": "link",
+      "icon": "airplay"
+    },
+    {
+      "route": "districts-table",
+      "name": "Districts",
+      "type": "link",
+      "icon": "airplay"
+    },
+    {
+      "route": "table-personal",
+      "name": "Personal",
+      "type": "link",
+      "icon": "airplay"
+    },
+    {
+      "route": "table-agents",
+      "name": "Agents",
+      "type": "link",
+      "icon": "airplay"
+    },    
+    {
+          "route": "mrto-module-table",
+          "name": "MRTO Accounts",
+          "type": "link",
+          "icon": "bell"
+    },  
+    {
+      "route": "table-airtime",
+      "name": "Airtime",
+      "type": "link",
+      "icon": "airplay"
+    },
+    {
+      "route": "table-electricity",
+      "name": "Electricity",
+      "type": "link",
+      "icon": "airplay"
+    },    
+    {
+      "route": "table-dstv",
+      "name": "Dstv",
+      "type": "link",
+      "icon": "airplay"
+    },        
+    {
+      "route": "table-insure",
+      "name": "Insure",
+      "type": "link",
+      "icon": "airplay"
+    },        
+    {
+      "route": "table-betting",
+      "name": "Betting",
+      "type": "link",
+      "icon": "airplay"
+    },    
+    {
+      "route": "table-groups-gm",
+      "name": "Group Module",
+      "type": "link",
+      "icon": "airplay"
+    },
+    {
+      "route": "",
+      "name": "Switch Module",
+      "type": "sub",
+      "icon": "user-check",
+      "children":[
+        {
+          "route": "table-sendm",
+          "name": "Send Money",
+          "type": "link",
+          "icon": "bell"
+        },
+        {
+          "route": "table-reqv",
+          "name": "Request Voucher",
+          "type": "link",
+          "icon": "clip"
+        },
+        {
+          "route": "table-redeem",
+          "name": "Redeem Voucher",
+          "type": "link",
+          "icon": "clip"
+        }
+      ]
+    },
+    {
+      "route": "",
+      "name": "MMTS Module",
+      "type": "sub",
+      "icon": "user-check",
+      "children":[            
+        {
+          "route": "table-mmts-bd",
+          "name": "Bank Deposits",
+          "type": "link",
+          "icon": "airplay"
+        },
+        {
+          "route": "table-mmts-md",
+          "name": "Manual Deposits",
+          "type": "link",
+          "icon": "clip"
+        },
+        {
+          "route": "table-mmts-ud",
+          "name": "User Deposits",
+          "type": "link",
+          "icon": "clip"
+        },
+        {
+          "route": "table-mmts-uw",
+          "name": "User Withdrawals",
+          "type": "link",
+          "icon": "clip"
+        }
+      ]
+    }
+  ]
+}

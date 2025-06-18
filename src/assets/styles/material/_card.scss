@@ -1,0 +1,28 @@
+.mat-mdc-card {
+  border-radius: 10px !important;
+}
+.mat-mdc-card-header {
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding: 10px 15px !important;
+  line-height: 30px;
+  border-bottom: 1px solid;
+  border-color: #523f690f;
+  .mat-mdc-card-title {
+    margin: 0;
+    font-size: 17px;
+    line-height: 28px;
+    padding-right: 10px;
+    font-weight: 500;
+  }
+  .header-dropdown {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    list-style: none;
+  }
+}
+.mat-mdc-card-content {
+  padding: 15px !important;
+}

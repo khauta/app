@@ -1,0 +1,447 @@
+<div class="row">
+  <div class="col-md-6 col-lg-3">
+    <div class="info-card2">
+      <div class="card-body">
+        <div class="top-block d-flex align-items-center justify-content-between">
+          <h3 class="m-0 f-w-500">Investment</h3>
+          <div class="badge badge-solid-indigo">Monthly</div>
+        </div>
+        <h2 class="m-0">$<span class="counter">47000</span></h2>
+        <div class="d-flex align-items-center justify-content-between m-t-16 m-b-8">
+          <p class="m-0">Total Revenue</p>
+          <span class="text-purple">55%</span>
+        </div>
+        <mat-progress-bar mode="determinate" value="55"></mat-progress-bar>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 col-lg-3">
+    <div class="info-card2">
+      <div class="card-body">
+        <div class="top-block d-flex align-items-center justify-content-between">
+          <h3 class="m-0 f-w-500">Sales</h3>
+          <div class="badge badge-solid-orange">Anual</div>
+        </div>
+        <h2 class="m-0">$<span class="counter">22784</span></h2>
+        <div class="d-flex align-items-center justify-content-between m-t-16 m-b-8">
+          <p class="m-0">Total Revenue</p>
+          <span class="text-orange">42%</span>
+        </div>
+        <mat-progress-bar mode="determinate" color="warn" value="42"></mat-progress-bar>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 col-lg-3">
+    <div class="info-card2">
+      <div class="card-body">
+        <div class="top-block d-flex align-items-center justify-content-between">
+          <h3 class="m-0 f-w-500">Cost</h3>
+          <div class="badge badge-solid-indigo">Today</div>
+        </div>
+        <h2 class="m-0">$<span class="counter">1587</span></h2>
+        <div class="d-flex align-items-center justify-content-between m-t-16 m-b-8">
+          <p class="m-0">Total Revenue</p>
+          <span class="text-purple">75%</span>
+        </div>
+        <mat-progress-bar mode="determinate" value="75"></mat-progress-bar>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 col-lg-3">
+    <div class="info-card2">
+      <div class="card-body">
+        <div class="top-block d-flex align-items-center justify-content-between">
+          <h3 class="m-0 f-w-500">Profit</h3>
+          <div class="badge badge-solid-orange">Weekly</div>
+        </div>
+        <h2 class="m-0">$<span class="counter">1400</span></h2>
+        <div class="d-flex align-items-center justify-content-between m-t-16 m-b-8">
+          <p class="m-0">Total Revenue</p>
+          <span class="text-orange">48%</span>
+        </div>
+        <mat-progress-bar color="warn" mode="determinate" value="48"></mat-progress-bar>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-8">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>Sales Chart</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <div class="row">
+          <div class="col-md-8">
+            <apx-chart [series]="revenueOptions.series!" [chart]="revenueOptions.chart!"
+              [dataLabels]="revenueOptions.dataLabels!" [plotOptions]="revenueOptions.plotOptions!"
+              [responsive]="revenueOptions.responsive!" [xaxis]="revenueOptions.xaxis!"
+              [legend]="revenueOptions.legend!" [fill]="revenueOptions.fill!" [tooltip]="revenueOptions.tooltip!"
+              [colors]="revenueOptions.colors!"></apx-chart>
+
+          </div>
+          <div class="col-md-4">
+            <div class="chartData">
+              <h4 class="m-0"><b>Total</b></h4>
+              <h2 class="m-0"><b>$ 22000 </b></h2>
+              <p>Total Sale For Last Week</p>
+              <div class="d-flex align-items-center justify-content-between">
+                <apx-chart [series]="delChartOptions.series!" [chart]="delChartOptions.chart!"
+                  [xaxis]="delChartOptions.xaxis!" [dataLabels]="delChartOptions.dataLabels!"
+                  [grid]="delChartOptions.grid!" [stroke]="delChartOptions.stroke!" [title]="delChartOptions.title!"
+                  [markers]="delChartOptions.markers!" [tooltip]="delChartOptions.tooltip!"
+                  [yaxis]="delChartOptions.yaxis!" [fill]="delChartOptions.fill!"></apx-chart>
+              </div>
+              <div class="chartFooter">
+                <div class="d-flex align-items-center justify-content-between d1">
+                  <p class="m-0">Product 1 sell</p>
+                  <h4><b>78%</b></h4>
+                </div>
+                <div class="d-flex align-items-center justify-content-between d1">
+                  <p class="m-0">Product 2 sell</p>
+                  <h4><b>22%</b></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  <div class="col-sm-4">
+    <mat-card>
+      <mat-card-content>
+        <div class="imgCard">
+          <img src="assets/images/cust-care.jpg" class="w-full" alt="image">
+          <div class="d-flex justify-content-between">
+            <div>
+              <h3 class="card-title">Customer Service</h3>
+            </div>
+            <div class="d-flex align-items-center">
+              <i class="material-icons-outlined text-grey f-s-22 cursor-pointer">info</i>
+            </div>
+          </div>
+          <div class="body">
+            <span class="f-s-12">Lorem ipsum dolor sit amet. Et exercitationem sequi At atque dolore est
+              mollitia molestiae non possimus rerum cumque. </span>
+            <small class="text-muted m-t-8 d-inline-block w-full">Monday, 15 March 2023</small>
+          </div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>Chart Sample</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <h6 class="text-muted f-s-16 m-0 f-w-500">Average Daily Bill</h6>
+        <h6 class="m-t-4">129 Dollar <span class="text-muted m-t-4 f-s-12">(Average)</span></h6>
+        <div class="m-b-8">
+          <apx-chart [series]="performanceRateChartOptions.series!" [chart]="performanceRateChartOptions.chart!"
+            [xaxis]="performanceRateChartOptions.xaxis!" [stroke]="performanceRateChartOptions.stroke!"
+            [colors]="performanceRateChartOptions.colors!" [dataLabels]="performanceRateChartOptions.dataLabels!"
+            [legend]="performanceRateChartOptions.legend!" [markers]="performanceRateChartOptions.markers!"
+            [grid]="performanceRateChartOptions.grid!" [yaxis]="performanceRateChartOptions.yaxis!"
+            [tooltip]="performanceRateChartOptions.tooltip!" [title]="performanceRateChartOptions.title!">
+          </apx-chart>
+        </div>
+      </mat-card-content>
+    </mat-card>
+
+  </div>
+  <div class="col-sm-8">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>Invoices</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <table mat-table [dataSource]="dataSource" class="customHeader">
+
+          <!-- Invoice No Column -->
+          <ng-container matColumnDef="invoiceNo">
+            <mat-header-cell *matHeaderCellDef> Invoice No. </mat-header-cell>
+            <mat-cell *matCellDef="let element"><a> {{'#'+element.invoiceNo}}
+              </a> </mat-cell>
+          </ng-container>
+
+          <!--Client Name Column -->
+          <ng-container matColumnDef="clientName">
+            <mat-header-cell *matHeaderCellDef mat-sort-header>Name
+            </mat-header-cell>
+            <mat-cell *matCellDef="let element" class="text-nowrap">
+              <span class="mobile-label">Name:</span><img [src]="element.img" class="table-img" alt="image" />
+              {{element.clientName}}</mat-cell>
+          </ng-container>
+
+          <!--  Due Date Column -->
+          <ng-container matColumnDef="dueDate">
+            <mat-header-cell *matHeaderCellDef> Due Date </mat-header-cell>
+            <mat-cell *matCellDef="let element">{{element.dueDate | date}}</mat-cell>
+          </ng-container>
+
+          <!-- Status Column -->
+          <ng-container matColumnDef="status">
+            <mat-header-cell *matHeaderCellDef> Status </mat-header-cell>
+            <mat-cell *matCellDef="let element">
+
+              @if (element.status==='Paid') {
+              <div>
+                <span class="badge badge-solid-green">
+                  {{element.status}}</span>
+              </div>
+              }
+              @if (element.status==='Unpaid') {
+              <div>
+                <span class="badge badge-solid-orange">
+                  {{element.status}}</span>
+              </div>
+              }
+            </mat-cell>
+          </ng-container>
+
+          <!-- Total Column -->
+          <ng-container matColumnDef="total">
+            <mat-header-cell *matHeaderCellDef> Total </mat-header-cell>
+            <mat-cell *matCellDef="let element"> {{'$'+element.total}} </mat-cell>
+          </ng-container>
+
+          <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+          <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+        </table>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-8">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>Customers Survay</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <apx-chart [series]="areaChartOptions.series!" [chart]="areaChartOptions.chart!"
+          [xaxis]="areaChartOptions.xaxis!" [yaxis]="areaChartOptions.yaxis!" [colors]="areaChartOptions.colors!"
+          [stroke]="areaChartOptions.stroke!" [legend]="areaChartOptions.legend!" [grid]="areaChartOptions.grid!"
+          [tooltip]="areaChartOptions.tooltip!" [dataLabels]="areaChartOptions.dataLabels!"></apx-chart>
+      </mat-card-content>
+    </mat-card>
+
+  </div>
+  <div class="col-sm-4">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>Visitors</mat-card-title>
+        <button mat-icon-button [matMenuTriggerFor]="menu" class="header-dropdown">
+          <mat-icon>more_vert</mat-icon>
+        </button>
+        <mat-menu #menu="matMenu">
+          <button mat-menu-item>
+            <mat-icon>add_circle_outline</mat-icon>
+            <span>Add</span>
+          </button>
+          <button mat-menu-item disabled>
+            <mat-icon>delete_outline</mat-icon>
+            <span>Delete</span>
+          </button>
+          <button mat-menu-item>
+            <mat-icon>refresh</mat-icon>
+            <span>Refresh</span>
+          </button>
+        </mat-menu>
+      </mat-card-header>
+      <mat-card-content>
+        <div class="p-4 text-center">
+          <h4 class="m-b-8 m-t-0 f-s-20">Total Visitors</h4>
+          <h6 class="m-b-12 m-t-0 f-s-14 text-green">5,98,345</h6>
+          <div class="d-inline-block align-items-center">
+            <apx-chart [series]="smallBarChart.series!" [chart]="smallBarChart.chart!"
+              [plotOptions]="smallBarChart.plotOptions!" [tooltip]="smallBarChart.tooltip!"
+              [colors]="smallBarChart.colors!">
+            </apx-chart>
+          </div>
+          <h4 class="m-b-8 m-t-10 f-s-20">Satisfaction Rate</h4>
+          <h6 class="m-b-8 m-t-0 f-s-14 text-green">36% Average</h6>
+          <div class="d-inline-block align-items-center">
+            <apx-chart [series]="bannerChartOptions.series!" [chart]="bannerChartOptions.chart!"
+              [xaxis]="bannerChartOptions.xaxis!" [yaxis]="bannerChartOptions.yaxis!"
+              [colors]="bannerChartOptions.colors!" [stroke]="bannerChartOptions.stroke!"
+              [legend]="bannerChartOptions.legend!" [tooltip]="bannerChartOptions.tooltip!"
+              [dataLabels]="bannerChartOptions.dataLabels!"></apx-chart>
+          </div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-6">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>Company Strength</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <div class="progressCard">
+          <ul class="p-0 m-b-0">
+            <li class="m-b-16">
+              <div class="row d-flex align-items-center justify-content-between">
+                <div class="col-sm-3">
+                  <p class="m-0">UX / UI Design</p>
+                </div>
+                <div class="col-sm-6">
+                  <div class="d-flex align-items-center justify-content-between">
+                    <mat-progress-bar mode="determinate" value="65"></mat-progress-bar>
+                    <span class="m-l-8 m-r-8">65%</span>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="userImgGroup">
+                    <a href="#" class="userImg">
+                      <img src="assets/images/avatars/avatar-1.jpg" alt="">
+                    </a>
+                    <a href="#" class="userImg">
+                      <img src="assets/images/avatars/avatar-2.jpg" alt="">
+                    </a>
+                    <a href="#" class="userImg">
+                      <img src="assets/images/avatars/avatar-3.jpg" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="m-b-16">
+              <div class="row d-flex align-items-center justify-content-between">
+                <div class="col-sm-3">
+                  <p class="m-0">Development</p>
+                </div>
+                <div class="col-sm-6">
+                  <div class="d-flex align-items-center justify-content-between">
+                    <mat-progress-bar color="warn" mode="determinate" value="49"></mat-progress-bar>
+                    <span class="m-l-8 m-r-8">49%</span>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="userImgGroup">
+                    <a href="#" class="userImg">
+                      <img src="assets/images/avatars/avatar-5.jpg" alt="">
+                    </a>
+                    <a href="#" class="userImg">
+                      <img src="assets/images/avatars/avatar-6.jpg" alt="">
+                    </a>
+                    <a href="#" class="userImg">
+                      <img src="assets/images/avatars/avatar-3.jpg" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="m-b-16">
+              <div class="row d-flex align-items-center justify-content-between">
+                <div class="col-sm-3">
+                  <p class="m-0">Testing</p>
+                </div>
+                <div class="col-sm-6">
+                  <div class="d-flex align-items-center justify-content-between">
+                    <mat-progress-bar color="accent" mode="determinate" value="88"></mat-progress-bar>
+                    <span class="m-l-8 m-r-8">88%</span>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="userImgGroup">
+                    <a href="#" class="userImg">
+                      <img src="assets/images/avatars/avatar-1.jpg" alt="">
+                    </a>
+                    <a href="#" class="userImg">
+                      <img src="assets/images/avatars/avatar-4.jpg" alt="">
+                    </a>
+                    <a href="#" class="userImg">
+                      <img src="assets/images/avatars/avatar-2.jpg" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="m-b-16">
+              <div class="row d-flex align-items-center justify-content-between">
+                <div class="col-sm-3">
+                  <p class="m-0">Networking</p>
+                </div>
+                <div class="col-sm-6">
+                  <div class="d-flex align-items-center justify-content-between">
+                    <mat-progress-bar mode="determinate" value="63"></mat-progress-bar>
+                    <span class="m-l-8 m-r-8">63%</span>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="userImgGroup">
+                    <a href="#" class="userImg">
+                      <img src="assets/images/avatars/avatar-7.jpg" alt="">
+                    </a>
+                    <a href="#" class="userImg">
+                      <img src="assets/images/avatars/avatar-8.jpg" alt="">
+                    </a>
+                    <a href="#" class="userImg">
+                      <img src="assets/images/avatars/avatar-4.jpg" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="m-b-16">
+              <div class="row d-flex align-items-center justify-content-between">
+                <div class="col-sm-3">
+                  <p class="m-0">SEO</p>
+                </div>
+                <div class="col-sm-6">
+                  <div class="d-flex align-items-center justify-content-between">
+                    <mat-progress-bar color="warn" mode="determinate" value="77"></mat-progress-bar>
+                    <span class="m-l-8 m-r-8">77%</span>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="userImgGroup">
+                    <a href="#" class="userImg">
+                      <img src="assets/images/avatars/avatar-8.jpg" alt="">
+                    </a>
+                    <a href="#" class="userImg">
+                      <img src="assets/images/avatars/avatar-4.jpg" alt="">
+                    </a>
+                    <a href="#" class="userImg">
+                      <img src="assets/images/avatars/avatar-2.jpg" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </mat-card-content>
+    </mat-card>
+  </div>
+  <div class="col-sm-6">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>Sales Goal</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <div class="d-flex justify-center info-box3">
+          <div class="p-4 w-full">
+            <apx-chart [series]="dumbleChartOptions.series!" [chart]="dumbleChartOptions.chart!"
+              [dataLabels]="dumbleChartOptions.dataLabels!" [plotOptions]="dumbleChartOptions.plotOptions!"
+              [xaxis]="dumbleChartOptions.xaxis!" [colors]="dumbleChartOptions.colors!"
+              [fill]="dumbleChartOptions.fill!" [yaxis]="dumbleChartOptions.yaxis!"
+              [legend]="dumbleChartOptions.legend!" [tooltip]="dumbleChartOptions.tooltip!"
+              [grid]="dumbleChartOptions.grid!"></apx-chart>
+          </div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+    <mat-card>
+
+    </mat-card>
+  </div>
+</div>

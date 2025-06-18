@@ -1,0 +1,44 @@
+{
+    "data": [
+        {
+            "district": "Berea",
+            "total_agents": 1
+        },
+        {
+            "district": "Maseru",
+            "total_agents": 5
+        },
+        {
+            "district": "Leribe",
+            "total_agents": 8
+        },
+        {
+            "district": "Butha-Buthe",
+            "total_agents": 3
+        },
+        {
+            "district": "Mokhotlong",
+            "total_agents": 6
+        },
+        {
+            "district": "Thaba-Tseka",
+            "total_agents": 4
+        },
+        {
+            "district": "Qacha's Nek",
+            "total_agents": 2
+        },
+        {
+            "district": "Quthing",
+            "total_agents": 7
+        },
+        {
+            "district": "Mohale's Hoek",
+            "total_agents": 5
+        },
+        {
+            "district": "Mafeteng",
+            "total_agents": 9
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+[
+    {
+        "department": "GENERAL",
+        "transactions": 118
+    },
+    {
+        "department": "AIRTIME",
+        "transactions": 245
+    },
+    {
+        "department": "ELECTRICITY",
+        "transactions": 389
+    }
+]

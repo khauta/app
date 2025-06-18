@@ -1,0 +1,511 @@
+<div class="row">
+    <div class="col-sm-8">
+        <mat-card>
+            <mat-card-content>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="bannerImg">
+                            <img src="assets/images/welcome.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-8 p-24">
+                        <p class="f-s-24 f-w-500 m-0">
+                            Welcome back
+                        </p>
+                        <div class="f-w-500 f-s-20 text-blue">Sarah Smith!</div>
+                        <p class="f-s-14 max-width-600">We would like to take this opportunity to welcome you to our
+                            practice
+                            and to thank you
+                            for choosing our physicians to participate in your healthcare. We look forward to
+                            providing you with personalized.</p>
+                    </div>
+                </div>
+            </mat-card-content>
+        </mat-card>
+        <div class="row">
+            <div class="col-sm-4">
+                <mat-card>
+                    <mat-card-content>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div>
+                                    <span class="f-s-16">Expense</span>
+                                    <h2 class="m-0">$14,578</h2>
+                                    <h4 class="d-flex m-t-16 w-full align-items-center text-orange ">
+                                        <i-feather name="arrow-up-circle"
+                                            class="w-20 h-20 m-2 d-flex align-items-center"></i-feather>
+                                        +7.5%
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 align-self-center">
+                                <apx-chart [series]="smallChart1Options.series!" [chart]="smallChart1Options.chart!"
+                                    [colors]="smallChart1Options.colors!" [yaxis]="smallChart1Options.yaxis!"
+                                    [plotOptions]="smallChart1Options.plotOptions!"
+                                    [tooltip]="smallChart1Options.tooltip!"
+                                    [xaxis]="smallChart1Options.xaxis!"></apx-chart>
+                            </div>
+                        </div>
+                    </mat-card-content>
+                </mat-card>
+            </div>
+            <div class="col-sm-4">
+                <mat-card>
+                    <mat-card-content>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="mdc-circular-progress__color-4">
+                                    <span class="f-s-16">Profit</span>
+                                    <h2 class="m-0">$25,784</h2>
+                                    <h4 class="d-flex m-t-16 w-full align-items-center text-green ">
+                                        <i-feather name="arrow-up-circle"
+                                            class="w-20 h-20 m-2 d-flex align-items-center"></i-feather>
+                                        +10.05%
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 align-self-center">
+                                <apx-chart [series]="smallChart2Options.series!" [chart]="smallChart2Options.chart!"
+                                    [colors]="smallChart2Options.colors!" [yaxis]="smallChart2Options.yaxis!"
+                                    [plotOptions]="smallChart2Options.plotOptions!"
+                                    [tooltip]="smallChart2Options.tooltip!"
+                                    [xaxis]="smallChart2Options.xaxis!"></apx-chart>
+                            </div>
+                        </div>
+                    </mat-card-content>
+                </mat-card>
+            </div>
+            <div class="col-sm-4">
+                <mat-card>
+                    <mat-card-content>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="mdc-circular-progress__color-4">
+                                    <span class="f-s-16">Sales</span>
+                                    <h2 class="m-0">22,357</h2>
+                                    <h4 class="d-flex m-t-16 w-full align-items-center text-purple ">
+                                        <i-feather name="arrow-up-circle"
+                                            class="w-20 h-20 m-2 d-flex align-items-center"></i-feather>
+                                        +24.11%
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 align-self-center">
+                                <apx-chart [series]="smallChart3Options.series!" [chart]="smallChart3Options.chart!"
+                                    [colors]="smallChart3Options.colors!" [yaxis]="smallChart3Options.yaxis!"
+                                    [plotOptions]="smallChart3Options.plotOptions!"
+                                    [tooltip]="smallChart3Options.tooltip!"
+                                    [xaxis]="smallChart3Options.xaxis!"></apx-chart>
+                            </div>
+                        </div>
+                    </mat-card-content>
+                </mat-card>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <mat-card>
+                    <mat-card-header>
+                        <mat-card-title>Popular Product Chart</mat-card-title>
+                    </mat-card-header>
+                    <mat-card-content>
+                        <div class="d-flex justify-content-start">
+                            <div class="p-l-16 m-8">
+                                <span class="f-s-16">This Week</span>
+                                <h2 class="m-0 text-green">$2,578</h2>
+                            </div>
+                            <div class="p-l-16 m-8">
+                                <span class="f-s-16">This Month</span>
+                                <h2 class="m-0 text-green">$14,857</h2>
+                            </div>
+                        </div>
+                        <apx-chart [series]="lineChartOptions.series!" [chart]="lineChartOptions.chart!"
+                            [xaxis]="lineChartOptions.xaxis!" [stroke]="lineChartOptions.stroke!"
+                            [colors]="lineChartOptions.colors!" [dataLabels]="lineChartOptions.dataLabels!"
+                            [legend]="lineChartOptions.legend!" [tooltip]="lineChartOptions.tooltip!"
+                            [markers]="lineChartOptions.markers!" [grid]="lineChartOptions.grid!"
+                            [yaxis]="lineChartOptions.yaxis!" [title]="lineChartOptions.title!"
+                            [fill]="lineChartOptions.fill!">
+                        </apx-chart>
+                    </mat-card-content>
+                </mat-card>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <mat-card>
+            <mat-card-header>
+                <mat-card-title>Visitors Chart</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+                <div class="m-b-8">
+                    <p class="f-s-16 m-0 f-w-500">Average Daily Users</p>
+                    <p class="m-t-4">1,258 Visitors <span class="text-muted m-t-4 f-s-12">(Average)</span></p>
+                    <apx-chart [series]="barChartOptions.series!" [chart]="barChartOptions.chart!"
+                        [dataLabels]="barChartOptions.dataLabels!" [stroke]="barChartOptions.stroke!"
+                        [colors]="barChartOptions.colors!" [title]="barChartOptions.title!"
+                        [grid]="barChartOptions.grid!" [tooltip]="barChartOptions.tooltip!"
+                        [plotOptions]="barChartOptions.plotOptions!" [yaxis]="barChartOptions.yaxis!"
+                        [xaxis]="barChartOptions.xaxis!"></apx-chart>
+                </div>
+            </mat-card-content>
+        </mat-card>
+        <mat-card>
+            <div class="chartCard1">
+                <div class="card-header">
+                    <div class="card-header-inner">
+                        <div class="d-flex">
+                            <i class="material-icons-outlined icon text-grey f-s-24">cloud_upload</i>
+                            <div class="f-w-500 f-s-18 m-l-8 m-r-8">Cloud Storage</div>
+                        </div>
+                    </div>
+                    <div class="icons2">
+                        <i class="material-icons icon text-grey f-s-24">star_outline</i>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <apx-chart [series]="gaugeChartOptions1.pieSeries!" [chart]="gaugeChartOptions1.chart!"
+                        [plotOptions]="gaugeChartOptions1.plotOptions!" [labels]="gaugeChartOptions1.labels!"
+                        [colors]="gaugeChartOptions1.colors!" [fill]="gaugeChartOptions1.fill!"
+                        [stroke]="gaugeChartOptions1.stroke!"></apx-chart>
+                    <b class="my-storage">My storage</b>
+                </div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                    <div class="d-flex flex-col">
+                        <div class="bulletsGroup">
+                            <div class="bullets1"></div>
+                            <div class="bulletText">Used Space</div>
+                        </div>
+                        <div class="bulletsGroup">
+                            <div class="bullets2"></div>
+                            <div class="bulletText">Total Space</div>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <button mat-raised-button color="primary">Buy More</button>
+                    </div>
+                </div>
+            </div>
+        </mat-card>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <mat-card>
+            <mat-card-header>
+                <mat-card-title>Projects Details</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+                <table mat-table [dataSource]="dataSource" class="customHeader">
+
+                    <!-- Project Name Column -->
+                    <ng-container matColumnDef="projectName">
+                        <th mat-header-cell *matHeaderCellDef> Project Name </th>
+                        <td mat-cell *matCellDef="let project"> {{ project.projectName }} </td>
+                    </ng-container>
+
+                    <!-- Project Team Column -->
+                    <ng-container matColumnDef="projectTeam">
+                        <th mat-header-cell *matHeaderCellDef> Project Team </th>
+                        <td mat-cell *matCellDef="let project">
+                            <ul class="list-unstyled projectTeamList order-list">
+                                <li class="avatar avatar-sm"> <img
+                                        *ngFor="let member of getTeamMembers(project.projectTeam)" [src]="member"
+                                        class="avatar" alt="">
+                                </li>
+                            </ul>
+                        </td>
+                    </ng-container>
+
+                    <!-- Team Leader Column -->
+                    <ng-container matColumnDef="teamLeader">
+                        <th mat-header-cell *matHeaderCellDef> Team Leader </th>
+                        <td mat-cell *matCellDef="let project"> {{ project.teamLeader }} </td>
+                    </ng-container>
+
+                    <!-- Priority Column -->
+                    <ng-container matColumnDef="priority">
+                        <th mat-header-cell *matHeaderCellDef> Priority </th>
+                        <td mat-cell *matCellDef="let project">
+                            @if (project.priority==='high') {
+                            <div>
+                                <span class="badge badge-solid-orange">
+                                    {{project.priority}}</span>
+                            </div>
+                            }
+                            @if (project.priority==='low') {
+                            <div>
+                                <span class="badge badge-solid-green">
+                                    {{project.priority}}</span>
+                            </div>
+                            }
+                            @if (project.priority==='medium') {
+                            <div>
+                                <span class="badge badge-solid-purple">
+                                    {{project.priority}}</span>
+                            </div>
+                            }
+
+                    </ng-container>
+
+                    <!-- Open Task Column -->
+                    <ng-container matColumnDef="openTask">
+                        <th mat-header-cell *matHeaderCellDef> Open Tasks </th>
+                        <td mat-cell *matCellDef="let project"> {{ project.openTask }} </td>
+                    </ng-container>
+
+                    <!-- Completed Task Column -->
+                    <ng-container matColumnDef="completedTask">
+                        <th mat-header-cell *matHeaderCellDef> Completed Tasks </th>
+                        <td mat-cell *matCellDef="let project"> {{ project.completedTask }} </td>
+                    </ng-container>
+
+                    <!-- Status Column -->
+                    <ng-container matColumnDef="status">
+                        <th mat-header-cell *matHeaderCellDef> Status </th>
+                        <td mat-cell *matCellDef="let project">
+                            @if (project.status <=50) { <mat-progress-bar mode="determinate"
+                                class="progress-xs progress-round" color="primary" [value]="project.status">
+                                </mat-progress-bar>
+                                }
+                                @if (project.status >50 && project.status <70) { <mat-progress-bar mode="determinate"
+                                    class="progress-xs progress-round" color="warn" [value]="project.status">
+                                    </mat-progress-bar>
+                                    }
+                                    @if (project.status >70 ) { <mat-progress-bar mode="determinate"
+                                        class="progress-xs progress-round" color="accent" [value]="project.status">
+                                    </mat-progress-bar>
+                                    }
+                        </td>
+                    </ng-container>
+
+                    <!-- Document Column -->
+                    <ng-container matColumnDef="document">
+                        <th mat-header-cell *matHeaderCellDef> Document </th>
+                        <td mat-cell *matCellDef="let project">
+                            <button mat-icon-button color="accent" class="tbl-action-btn">
+                                <app-feather-icons [icon]="'file-text'" [class]="'tbl-fav-edit'"></app-feather-icons>
+                            </button>
+                        </td>
+                    </ng-container>
+                    <!-- actions -->
+                    <ng-container matColumnDef="actions">
+                        <th mat-header-cell *matHeaderCellDef> Actions </th>
+                        <td mat-cell *matCellDef="let row; let i=index;" class="pr-0">
+                            <button mat-icon-button color="accent" class="tbl-action-btn">
+                                <app-feather-icons [icon]="'edit'" [class]="'tbl-fav-edit'"></app-feather-icons>
+                            </button>
+                            <button mat-icon-button color="accent" class="tbl-action-btn">
+                                <app-feather-icons [icon]="'trash-2'" [class]="'tbl-fav-delete'"></app-feather-icons>
+                            </button>
+                        </td>
+                    </ng-container>
+
+                    <!-- Define the table rows -->
+                    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+                </table>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-4">
+        <mat-card>
+            <mat-card-header>
+                <mat-card-title>Your Progress</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+                <ng-scrollbar style="height: 370px" visibility="hover">
+                    <table class="table table-hover simple-table">
+                        <thead>
+                            <tr>
+                                <th>Subject</th>
+                                <th>Progress</th>
+                                <th>Duration</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Chemistry</td>
+                                <td class="f-s-10">30%<mat-progress-bar mode="determinate" value="30"
+                                        color="warn"></mat-progress-bar>
+                                </td>
+                                <td>2 Months</td>
+                            </tr>
+                            <tr>
+                                <td>Mathematics</td>
+                                <td class="f-s-10">55%<mat-progress-bar mode="determinate"
+                                        value="55"></mat-progress-bar>
+                                </td>
+                                <td>3 Months</td>
+                            </tr>
+                            <tr>
+                                <td>Painting</td>
+                                <td class="f-s-10">67%<mat-progress-bar mode="determinate"
+                                        value="67"></mat-progress-bar>
+                                </td>
+                                <td>1 Months</td>
+                            </tr>
+                            <tr>
+                                <td>Business studies</td>
+                                <td class="f-s-10">70%<mat-progress-bar mode="determinate"
+                                        value="70"></mat-progress-bar>
+                                </td>
+                                <td>2 Months</td>
+                            </tr>
+                            <tr>
+                                <td>Biology</td>
+                                <td class="f-s-10">24%<mat-progress-bar mode="determinate" value="24"
+                                        color="warn"></mat-progress-bar>
+                                </td>
+                                <td>3 Months</td>
+                            </tr>
+                            <tr>
+                                <td>Computer studies</td>
+                                <td class="f-s-10">77%<mat-progress-bar mode="determinate"
+                                        value="77"></mat-progress-bar>
+                                </td>
+                                <td>4 Months</td>
+                            </tr>
+                            <tr>
+                                <td>Geography</td>
+                                <td class="f-s-10">41%<mat-progress-bar mode="determinate" value="41"
+                                        color="warn"></mat-progress-bar>
+                                </td>
+                                <td>2 Months</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </ng-scrollbar>
+            </mat-card-content>
+        </mat-card>
+    </div>
+    <div class="col-sm-4">
+        <mat-card>
+            <mat-card-header>
+                <mat-card-title>Todo List</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+                <ng-scrollbar style="height: 370px" visibility="hover">
+                    <div cdkDropList class="task-list" (cdkDropListDropped)="drop($event)">
+                        @for (task of tasks; track task) {
+                        <div class="task-box" cdkDrag>
+                            <div>
+                                <div class="task-handle m-r-20" cdkDragHandle>
+                                    <mat-icon aria-hidden="false">drag_indicator</mat-icon>
+                                </div>
+                            </div>
+                            <mat-checkbox (change)="toggle(task)" [checked]="!!task.done" class="m-r-15"
+                                color="primary">
+                            </mat-checkbox>
+                            <div class="task-custom-placeholder" *cdkDragPlaceholder></div>
+                            <div matTooltip="Title" [ngClass]="{done:task.done}">
+                                {{task.title}}</div>
+                            <div
+                                [ngClass]="{'task-low': task.priority==='Low', 'task-high': task.priority==='High','task-normal': task.priority==='Normal'}">
+                                @if (task?.priority === 'Low') {
+                                <mat-icon matTooltip="Low" aria-hidden="false" class="lbl-low">
+                                    arrow_downward
+                                </mat-icon>
+                                }
+                                @if (task?.priority === 'High') {
+                                <mat-icon matTooltip="High" aria-hidden="false" class="lbl-high">
+                                    arrow_upward
+                                </mat-icon>
+                                }
+                                @if (task?.priority === 'Normal') {
+                                <mat-icon matTooltip="Normal" aria-hidden="false" class="lbl-normal">
+                                    remove</mat-icon>
+                                }
+                                {{task.priority}}
+                            </div>
+                        </div>
+                        }
+                    </div>
+                </ng-scrollbar>
+            </mat-card-content>
+        </mat-card>
+    </div>
+    <div class="col-sm-4">
+        <mat-card>
+            <mat-card-header>
+                <mat-card-title>Appointments</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+                <ng-scrollbar style="height: 370px" visibility="hover">
+                    <ul class="p-0">
+                        <li class="lecture-list">
+                            <img alt="image" src="assets/images/avatars/avatar-1.jpg">
+                            <div class="set-flex">
+                                <div class="f-s-16 f-w-500">Cara Stevens</div>
+                                <div class="text-muted f-s-14">M.B.B.S.</div>
+                            </div>
+                            <div class="dateTime">
+                                <div class="f-s-16 f-w-500">12 June '20</div>
+                                <div class="text-muted f-s-14">09:00-10:00</div>
+                            </div>
+                        </li>
+
+                        <li class="lecture-list">
+                            <img alt="image" src="assets/images/avatars/avatar-2.jpg">
+                            <div class="set-flex">
+                                <div class="f-s-16 f-w-500">Airi Satou</div>
+                                <div class="text-muted f-s-14">M.S.</div>
+                            </div>
+                            <div class="dateTime">
+                                <div class="f-s-16 f-w-500">13 June '20</div>
+                                <div class="text-muted f-s-14">11:00-12:00</div>
+                            </div>
+                        </li>
+                        <li class="lecture-list">
+                            <img alt="image" src="assets/images/avatars/avatar-3.jpg">
+                            <div class="set-flex">
+                                <div class="f-s-16 f-w-500">Jens Brincker</div>
+                                <div class="text-muted f-s-14">Geography</div>
+                            </div>
+                            <div class="dateTime">
+                                <div class="f-s-16 f-w-500">15 June '20</div>
+                                <div class="text-muted f-s-14">09:30-10:30</div>
+                            </div>
+                        </li>
+                        <li class="lecture-list">
+                            <img alt="image" src="assets/images/avatars/avatar-4.jpg">
+                            <div class="set-flex">
+                                <div class="f-s-16 f-w-500">Angelica Ramos</div>
+                                <div class="text-muted f-s-14">B.H.M.S.</div>
+                            </div>
+                            <div class="dateTime">
+                                <div class="f-s-16 f-w-500">16 June '20</div>
+                                <div class="text-muted f-s-14">14:00-15:00</div>
+                            </div>
+                        </li>
+                        <li class="lecture-list">
+                            <img alt="image" src="assets/images/avatars/avatar-5.jpg">
+                            <div class="set-flex">
+                                <div class="f-s-16 f-w-500">Cara Stevens</div>
+                                <div class="text-muted f-s-14">M.B.B.S.</div>
+                            </div>
+                            <div class="dateTime">
+                                <div class="f-s-16 f-w-500">18 June '20</div>
+                                <div class="text-muted f-s-14">11:00-12:30</div>
+                            </div>
+                        </li>
+                        <li class="lecture-list">
+                            <img alt="image" src="assets/images/avatars/avatar-6.jpg">
+                            <div class="set-flex">
+                                <div class="f-s-16 f-w-500">Jacob Ryan</div>
+                                <div class="text-muted f-s-14">M.D.</div>
+                            </div>
+                            <div class="dateTime">
+                                <div class="f-s-16 f-w-500">22 June '20</div>
+                                <div class="text-muted f-s-14">13:00-14:15</div>
+                            </div>
+                        </li>
+                    </ul>
+                </ng-scrollbar>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div>

@@ -1,0 +1,352 @@
+[
+    {
+      "First Name": "Mantoetsi",
+      "Surname": "Mokebe",
+      "ID/Passport Num": "07202204002",
+      "Cell": "62236014",
+      "District": "Maseru",
+      "Area": "Ha Abia",
+      "Date": "2024-10-30",
+      "Active": true
+    },
+    {
+      "First Name": "Morongoenyana",
+      "Surname": "Mochebelele",
+      "ID/Passport Num": "07241492302",
+      "Cell": "62803104",
+      "District": "Maseru",
+      "Area": "Ha Abia",
+      "Date": "2024-10-30",
+      "Active": true
+    },
+    {
+      "First Name": "Molapo",
+      "Surname": "Sekonyela",
+      "ID/Passport Num": "0341492302",
+      "Cell": "67841501",
+      "District": "Berea",
+      "Area": "Mazenod",
+      "Date": "2024-10-30",
+      "Active": true
+    },
+    {
+      "First Name": "Tseliso",
+      "Surname": "makoae",
+      "ID/Passport Num": "0341492302",
+      "Cell": "57841501",
+      "District": "Berea",
+      "Area": "Mazenod",
+      "Date": "2024-10-30",
+      "Active": true
+    },
+    {
+      "First Name": "Malabonang",
+      "Surname": "Bel",
+      "ID/Passport Num": "0341492302",
+      "Cell": "82476447",
+      "District": "Berea",
+      "Area": "thetsane",
+      "Date": "2024-10-30",
+      "Active": true
+    },
+    {
+      "First Name": "Mookho",
+      "Surname": "nkebe",
+      "ID/Passport Num": "0341492302",
+      "Cell": "68844447",
+      "District": "Berea",
+      "Area": "thetsane",
+      "Date": "2024-10-30",
+      "Active": true
+    },
+    {
+      "First Name": "sekoati",
+      "Surname": "poho",
+      "ID/Passport Num": "0341492302",
+      "Cell": "58877102",
+      "District": "Quthing",
+      "Area": "Qhoali",
+      "Date": "2024-10-30",
+      "Active": true
+    },
+    {
+      "First Name": "sorisa",
+      "Surname": "poho",
+      "ID/Passport Num": "0341492302",
+      "Cell": "58877102",
+      "District": "Quthing",
+      "Area": "Qhoali",
+      "Date": "2024-10-30",
+      "Active": true
+    },
+    {
+      "First Name": "Nthabiseng",
+      "Surname": "Lefaphane",
+      "ID/Passport Num": "081205678901",
+      "Cell": "58765432",
+      "District": "Mafeteng",
+      "Area": "Thaba-Tseka",
+      "Date": "2023-08-15",
+      "Active": true
+    },
+    {
+      "First Name": "Puleng",
+      "Surname": "Mohapi",
+      "ID/Passport Num": "070819901234",
+      "Cell": "69876543",
+      "District": "Leribe",
+      "Area": "Butha-Buthe",
+      "Date": "2024-01-20",
+      "Active": false
+    },
+    {
+      "First Name": "Relebohile",
+      "Surname": "Makatjane",
+      "ID/Passport Num": "060511234567",
+      "Cell": "78901234",
+      "District": "Mokhotlong",
+      "Area": "Qacha's Nek",
+      "Date": "2023-05-10",
+      "Active": true
+    },
+    {
+      "First Name": "Thabang",
+      "Surname": "Ntsukunyane",
+      "ID/Passport Num": "090123456789",
+      "Cell": "56789012",
+      "District": "Thaba-Tseka",
+      "Area": "Mohale's Hoek",
+      "Date": "2024-09-05",
+      "Active": true
+    },
+    {
+      "First Name": "Lineo",
+      "Surname": "Ramabele",
+      "ID/Passport Num": "081011223344",
+      "Cell": "67890123",
+      "District": "Botha-Bothe",
+      "Area": "Teyateyaneng",
+      "Date": "2023-12-28",
+      "Active": false
+    },
+    {
+      "First Name": "Moeketsi",
+      "Surname": "Seeiso",
+      "ID/Passport Num": "070918273645",
+      "Cell": "78901234",
+      "District": "Quthing",
+      "Area": "Maputsoe",
+      "Date": "2024-06-12",
+      "Active": true
+    },
+    {
+      "First Name": "Lerato",
+      "Surname": "Moletsane",
+      "ID/Passport Num": "080722345678",
+      "Cell": "65432109",
+      "District": "Maseru",
+      "Area": "Ha Leqele",
+      "Date": "2024-03-18",
+      "Active": true
+    },
+    {
+      "First Name": "Thabo",
+      "Surname": "Ramoholi",
+      "ID/Passport Num": "091130456789",
+      "Cell": "76543210",
+      "District": "Berea",
+      "Area": "Khubetsoana",
+      "Date": "2023-11-05",
+      "Active": false
+    },
+    {
+      "First Name": "Mpho",
+      "Surname": "Tau",
+      "ID/Passport Num": "071215678901",
+      "Cell": "54321098",
+      "District": "Leribe",
+      "Area": "Hlotse",
+      "Date": "2024-08-22",
+      "Active": true
+    },
+    {
+      "First Name": "Ntswaki",
+      "Surname": "Mofolo",
+      "ID/Passport Num": "060920345678",
+      "Cell": "65432109",
+      "District": "Mafeteng",
+      "Area": "Roma",
+      "Date": "2023-06-18",
+      "Active": false
+    },
+    {
+      "First Name": "Tsepo",
+      "Surname": "Phakisi",
+      "ID/Passport Num": "080328456789",
+      "Cell": "76543210",
+      "District": "Mokhotlong",
+      "Area": "Mokhotlong",
+      "Date": "2024-04-05",
+      "Active": true
+    },
+    {
+        "First Name": "Malehlohonolo",
+        "Surname": "Sekatle",
+        "ID/Passport Num": "090405678901",
+        "Cell": "54321098",
+        "District": "Thaba-Tseka",
+        "Area": "Thaba-Tseka",
+        "Date": "2023-09-22",
+        "Active": true
+    },
+    {
+    "First Name": "Reaboka",
+    "Surname": "Moorosi",
+    "ID/Passport Num": "070610345678",
+    "Cell": "65432109",
+    "District": "Botha-Bothe",
+    "Area": "Botha-Bothe",
+    "Date": "2024-07-18",
+    "Active": false
+    },
+    {
+    "First Name": "Katleho",
+    "Surname": "Pheko",
+    "ID/Passport Num": "081115456789",
+    "Cell": "76543210",
+    "District": "Quthing",
+    "Area": "Quthing",
+    "Date": "2023-12-05",
+    "Active": true
+    },
+    {
+    "First Name": "Maseeiso",
+    "Surname": "Letsie",
+    "ID/Passport Num": "091220678901",
+    "Cell": "54321098",
+    "District": "Maseru",
+    "Area": "Maseru",
+    "Date": "2024-05-22",
+    "Active": false
+    },
+    {
+    "First Name": "Thakane",
+    "Surname": "Moshoeshoe",
+    "ID/Passport Num": "070105345678",
+    "Cell": "65432109",
+    "District": "Berea",
+    "Area": "Teyateyaneng",
+    "Date": "2023-02-18",
+    "Active": true
+    },
+    {
+    "First Name": "Mohlomi",
+    "Surname": "Lerotholi",
+    "ID/Passport Num": "080210456789",
+    "Cell": "76543210",
+    "District": "Leribe",
+    "Area": "Maputsoe",
+    "Date": "2024-11-05",
+    "Active": true
+    },
+    {
+    "First Name": "Limpho",
+    "Surname": "Maama",
+    "ID/Passport Num": "090315678901",
+    "Cell": "54321098",
+    "District": "Mafeteng",
+    "Area": "Mafeteng",
+    "Date": "2023-08-22",
+    "Active": false
+    },
+    {
+    "First Name": "Ntate",
+    "Surname": "Moseli",
+    "ID/Passport Num": "070420345678",
+    "Cell": "65432109",
+    "District": "Mokhotlong",
+    "Area": "Mokhotlong",
+    "Date": "2024-06-18",
+    "Active": true
+    },
+    {
+    "First Name": "'M'e",
+    "Surname": "Ntlama",
+    "ID/Passport Num": "080525456789",
+    "Cell": "76543210",
+    "District": "Thaba-Tseka",
+    "Area": "Butha-Buthe",
+    "Date": "2023-04-05",
+    "Active": true
+    },
+    {
+    "First Name": "Ausi",
+    "Surname": "Rabele",
+    "ID/Passport Num": "090630678901",
+    "Cell": "54321098",
+    "District": "Botha-Bothe",
+    "Area": "Qacha's Nek",
+    "Date": "2024-09-22",
+    "Active": false
+    },
+    {
+    "First Name": "Abuti",
+    "Surname": "Khotso",
+    "ID/Passport Num": "070705345678",
+    "Cell": "65432109",
+    "District": "Quthing",
+    "Area": "Mohale's Hoek",
+    "Date": "2023-07-18",
+    "Active": true
+    },
+    {
+    "First Name": "Nkhono",
+    "Surname": "Mpho",
+    "ID/Passport Num": "080810456789",
+    "Cell": "76543210",
+    "District": "Maseru",
+    "Area": "Roma",
+    "Date": "2024-12-05",
+    "Active": true
+    },
+    {
+    "First Name": "Ntate-moholo",
+    "Surname": "Tsepo",
+    "ID/Passport Num": "090915678901",
+    "Cell": "54321098",
+    "District": "Berea",
+    "Area": "Thaba-Tseka",
+    "Date": "2023-05-22",
+    "Active": false
+    },
+    {
+    "First Name": "Rakgadi",
+    "Surname": "Malebohang",
+    "ID/Passport Num": "071020345678",
+    "Cell": "65432109",
+    "District": "Leribe",
+    "Area": "Butha-Buthe",
+    "Date": "2024-02-18",
+    "Active": true
+    },
+    {
+    "First Name": "Malome",
+    "Surname": "Tseliso",
+    "ID/Passport Num": "081225456789",
+    "Cell": "76543210",
+    "District": "Mafeteng",
+    "Area": "Qacha's Nek",
+    "Date": "2023-11-05",
+    "Active": true
+    },
+    {
+    "First Name": "Mosa",
+    "Surname": "Moliehi",
+    "ID/Passport Num": "090130678901",
+    "Cell": "54321098",
+    "District": "Mokhotlong",
+    "Area": "Mohale's Hoek",
+    "Date": "2024-08-22",
+    "Active": false
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "hour": 8,
+        "transactions": 10
+    },
+    {
+        "hour": 9,
+        "transactions": 4
+    },
+    {
+        "hour": 10,
+        "transactions": 15
+    },
+    {
+        "hour": 13,
+        "transactions": 13
+    },
+    {
+        "hour": 15,
+        "transactions": 2
+    },
+    {
+        "hour": 16,
+        "transactions": 50
+    },
+    {
+        "hour": 17,
+        "transactions": 2
+    },
+    {
+        "hour": 19,
+        "transactions": 4
+    },
+    {
+        "hour": 22,
+        "transactions": 16
+    }
+]

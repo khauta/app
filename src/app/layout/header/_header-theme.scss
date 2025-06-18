@@ -1,0 +1,12 @@
+@use "sass:map";
+@use "@angular/material" as mat;
+
+@mixin theme($theme) {
+  $background: map.get($theme, background);
+  $foreground: map.get($theme, foreground);
+
+  .toolbar {
+    border-bottom: 1px solid map.get($foreground, divider);
+    background: map.get($background, base);
+  }
+}

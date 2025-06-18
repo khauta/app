@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "region": "North",
+    "name": "Berea",
+    "date": "2020-07-03 00:00:00",
+    "pub": 1,
+    "del": 0,
+    "agent_count": 97,
+    "personal_user_count": 50
+  },
+  {
+    "id": 2,
+    "region": "South",
+    "name": "Butha-Buthe",
+    "date": "2021-01-15 00:00:00",
+    "pub": 0,
+    "del": 1,
+    "agent_count": 5,
+    "personal_user_count": 1
+  },
+  {
+    "id": 3,
+    "region": "East",
+    "name": "Leribe",
+    "date": "2022-05-20 00:00:00",
+    "pub": 1,
+    "del": 1,
+    "agent_count": 25,
+    "personal_user_count": 10
+  },
+  {
+    "id": 4,
+    "region": "West",
+    "name": "Mafeteng",
+    "date": "2019-11-10 00:00:00",
+    "pub": 1,
+    "del": 0,
+    "agent_count": 150,
+    "personal_user_count": 200
+  },
+  {
+    "id": 5,
+    "region": "Central",
+    "name": "Maseru",
+    "date": "2023-09-01 00:00:00",
+    "pub": 0,
+    "del": 1,
+    "agent_count": 10,
+    "personal_user_count": 5
+  },
+  {
+    "id": 6,
+    "region": "South",
+    "name": "Mohales Hoek",
+    "date": "2020-03-08 00:00:00",
+    "pub": 1,
+    "del": 1,
+    "agent_count": 60,
+    "personal_user_count": 5
+  },
+  {
+    "id": 7,
+    "region": "North",
+    "name": "Mokhotlong",
+    "date": "2021-07-22 00:00:00",
+    "pub": 0,
+    "del": 0,
+    "agent_count": 30,
+    "personal_user_count": 2
+  },
+  {
+    "id": 8,
+    "region": "East",
+    "name": "Qachas Nek",
+    "date": "2022-12-05 00:00:00",
+    "pub": 1,
+    "del": 1,
+    "agent_count": 80,
+    "personal_user_count": 15
+  },
+  {
+    "id": 9,
+    "region": "West",
+    "name": "Quthing",
+    "date": "2019-06-18 00:00:00",
+    "pub": 0,
+    "del": 0,
+    "agent_count": 55,
+    "personal_user_count": 1
+  },
+  {
+    "id": 10,
+    "region": "Central",
+    "name": "Thaba Tseka",
+    "date": "2023-04-29 00:00:00",
+    "pub": 1,
+    "del": 1,
+    "agent_count": 75,
+    "personal_user_count": 12
+  }
+]

@@ -1,0 +1,29 @@
+[
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin",
+      "name": "admin",
+      "email": "admin@163.com",
+      "avatar": "./assets/images/admin.jpg"
+    },
+    {
+      "id": 2,
+      "username": "doctor",
+      "password": "doctor",
+      "name": "doctor",
+      "email": "doctor@gmail.com",
+      "avatar": "./assets/images/avatars/doctor.jpg",
+      "refresh_token": true
+    },
+    {
+      "id": 3,
+      "username": "patient",
+      "password": "patient",
+      "name": "patient",
+      "email": "patient@gmail.com",
+      "avatar": "./assets/images/avatars/patient.jpg",
+      "refresh_token": true
+    }
+  ]
+  

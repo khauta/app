@@ -1,0 +1,44 @@
+{
+    "data": [
+        {
+            "district": "Berea",
+            "total_customers": 6
+        },
+        {
+            "district": "Maseru",
+            "total_customers": 4
+        },
+        {
+            "district": "Leribe",
+            "total_customers": 3
+        },
+        {
+            "district": "Butha-Buthe",
+            "total_customers": 5
+        },
+        {
+            "district": "Mokhotlong",
+            "total_customers": 4
+        },
+        {
+            "district": "Thaba-Tseka",
+            "total_customers": 2
+        },
+        {
+            "district": "Qacha's Nek",
+            "total_customers": 5
+        },
+        {
+            "district": "Quthing",
+            "total_customers": 2
+        },
+        {
+            "district": "Mohale's Hoek",
+            "total_customers": 9
+        },
+        {
+            "district": "Mafeteng",
+            "total_customers": 4
+        }
+    ]
+}

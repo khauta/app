@@ -1,0 +1,35 @@
+[
+  {
+      "id": 1,
+      "name": "thabang",
+      "surname": "litaba",
+      "cell": "83643743",
+      "type": "Agent",
+      "title": "Transaction",
+      "message": "yooo",
+      "status": 0,
+      "date": "2023-12-02 02:14:37"
+  },
+  {
+      "id": 2,
+      "name": "test account",
+      "surname": "11245",
+      "cell": "58585851",
+      "type": "Agent",
+      "title": "Transaction",
+      "message": "hello",
+      "status": 0,
+      "date": "2023-12-12 16:04:58"
+  },
+  {
+      "id": 3,
+      "name": "Tshobo",
+      "surname": "Tshobo",
+      "cell": "21212121",
+      "type": "Agent",
+      "title": "Transaction",
+      "message": "hello",
+      "status": 1,
+      "date": "2023-12-12 16:31:03"
+  }
+]
